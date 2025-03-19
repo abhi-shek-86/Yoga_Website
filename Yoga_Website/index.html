@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="#"><img style="border-radius: 50%;" src="./images/logo.avif" alt="Yoga Logo"></a>
+            <h4>Sri Varahi Yoga Shala</h4>
+        </div>
+
+        <!-- Hamburger Icon -->
+        <div class="menu-icon" id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Ancient Yoga</a></li>
+            <li><a href="#">Explore Us</a></li>
+            <li><a href="#">Plans</a></li>
+            <li><a href="#">Investor</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="dropdown">
+                <select id="language" name="language">
+                    <option value="en">English</option>
+                    <option value="te">తెలుగు</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with Video and Overlay Text -->
+    <div class="video-container">
+        <video autoplay muted loop id="yoga-video">
+            <source src="./191439-890134783.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay">
+            <h1>Embrace the Power of Yoga</h1>
+            <p>Explore ancient yoga techniques for a healthier life.</p>
+        </div>
+    </div>
+
+    <!-- Description Section -->
+    <section class="yoga-description">
+        <h2>What is Yoga?</h2>
+        <p>
+            India, the birthplace of yoga, has nurtured this ancient practice for over 5,000 years, offering a profound
+            path to physical, mental, and spiritual harmony. Rooted in the wisdom of the Adiyogi, Lord Shiva, yoga
+            transcends mere exercise—it is a way of life that unites the body, mind, and soul in perfect balance.
+        </p>
+        <p>
+            In recent decades, the world has increasingly turned to yoga as a powerful tool for holistic well-being.
+            Visionary yogis like Swami Vivekananda, B.K.S. Iyengar, and Tirumalai Krishnamacharya have played a pivotal
+            role in bringing this timeless tradition to a global audience.
+        </p>
+    </section>
+
+    <!-- Types of Yoga Section -->
+    <section class="yoga-types">
+        <h2>Types of Yoga</h2>
+        <div class="types-container">
+            <div class="type-card">
+                <img src="./images/type1.webp" alt="Hatha Yoga">
+                <h4>Restorative Yoga</h4>
+            </div>
+            <div class="type-card">
+                <img src="./images/type2.webp" alt="Vinyasa Yoga">
+                <h4>Raj Yoga</h4>
+            </div>
+            <div class="type-card">
+                <img src="./images/type3.webp" alt="Iyengar Yoga">
+                <h4>Jivmukti Yoga</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainer Cards Section -->
+    <section class="trainer-section">
+        <h2>Our Expert Trainers</h2>
+        <div class="trainer-container">
+            <!-- Trainer Cards (9 Cards) -->
+            <div class="trainer-card">
+                <img src="./images/Trainers/Anurag.avif" alt="Trainer 1">
+                <h4>Trainer 1</h4>
+                <p>Anurag</p>
+            </div>
+            <div class="trainer-card">
+                <img src="./images/Trainers/Arpita Kothari.avif" alt="Trainer 2">
+                <h4>Trainer 2</h4>
+                <p>Arpitha Kothari</p>
+            </div>
+            <div class="trainer-card">
+                <img src="./images/Trainers/Gourav.avif" alt="Trainer 3">
+                <h4>Trainer 3</h4>
+                <p>Gourav</p>
+            </div>
+            <div class="trainer-card">
+                <img src="./images/Trainers/Pooja.avif" alt="Trainer 4">
+                <h4>Trainer 4</h4>
+                <p>Pooja</p>
+            </div>
+            <div class="trainer-card">
+                <img src="./images/Trainers/Shala Kumari.avif" alt="Trainer 5">
+                <h4>Trainer 5</h4>
+                <p>Shala Kumari</p>
+            </div>
+            <div class="trainer-card">
+                <img src="./images/Trainers/Srirama Mandava.avif" alt="Trainer 6">
+                <h4>Trainer 6</h4>
+                <p>Srirama Mandava</p>
+            </div>
+            <div class="trainer-card">
+                <img src="./images/Trainers/Suman.avif" alt="Trainer 7">
+                <h4>Trainer 7</h4>
+                <p>Suman</p>
+            </div>
+            <div class="trainer-card">
+                <img src="./images/Trainers/Supriya.avif" alt="Trainer 8">
+                <h4>Trainer 8</h4>
+                <p>Supriya</p>
+            </div>
+            <div class="trainer-card">
+                <img src="./images/Trainers/Swathi.avif" alt="Trainer 9">
+                <h4>Trainer 9</h4>
+                <p>Swathi</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Book a Free Demo Section -->
+    <section class="demo-section">
+        <div class="demo-content">
+            <h2>BOOK A FREE DEMO SESSION</h2>
+            <p>
+                Discover the power of yoga with a free demo session designed to help you relax, rejuvenate, and
+                reconnect with yourself. Whether you're new to yoga or looking to deepen your practice, this session
+                offers a perfect opportunity to experience guided movements, breathwork, and mindfulness techniques.
+            </p>
+            <p>
+                Take the first step toward a healthier, more balanced life—book your free session today and embark on
+                your journey to inner peace and well-being!
+            </p>
+            <a href="#" class="btn-book">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>© 2025 by Sri Varahi Yoga Shala</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        // JavaScript for Hamburger Menu
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuIcon = document.getElementById('menu-icon');
+            const navLinks = document.getElementById('nav-links');
+
+            menuIcon.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+
+                // Toggle between bars and times icon
+                const icon = menuIcon.querySelector('i');
+                if (icon.classList.contains('fa-bars')) {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-times');
+                } else {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            });
+
+            // Close menu on click outside or selecting link
+            document.addEventListener('click', (e) => {
+                if (!menuIcon.contains(e.target) && !navLinks.contains(e.target) && navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+
+                    // Reset icon to bars
+                    const icon = menuIcon.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            });
+
+            // Close menu when clicking on a nav link
+            const links = navLinks.querySelectorAll('a');
+            links.forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+
+                    // Reset icon to bars
+                    const icon = menuIcon.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
